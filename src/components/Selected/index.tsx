@@ -3,6 +3,7 @@ import { Text, View } from "react-native";
 import { styles } from "./styles";
 import { MaterialIcons } from "@expo/vector-icons";
 import { theme } from "@/theme";
+import { Button } from "../Button";
 
 type Props = {
   quantity: number;
@@ -26,6 +27,8 @@ export function Selected({ quantity, onClear, onSearch }: Props) {
           color={theme.colors.gray_400}
         />
       </View>
+
+      <Button title="Buscar receitas" onPress={onSearch} />
     </Animated.View>
   );
 }
