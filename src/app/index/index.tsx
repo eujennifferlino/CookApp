@@ -27,7 +27,7 @@ export default function Index() {
   }
 
   function handleSearch() {
-    router.navigate("/recipes/");
+    router.navigate("/recipes/" + selected);
   }
 
   useEffect(() => {
