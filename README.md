@@ -12,6 +12,7 @@ Projeto desenvolvido com React Native Expo
 * Expo Router: Rotas e navegação de páginas
 * Reanimated: Biblioteca de animações
 * Supabase: plataforma de banco de dados
+* Zustand: Gerenciamento de estado global
 
 ---
 
